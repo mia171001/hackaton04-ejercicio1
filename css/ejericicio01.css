@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #c2c2c2;
+}
+
+main {
+    height: calc(100vh - 30px);
+    /* background-color: aquamarine; */
+
+    /* Centrado vertical y horizontal de sus hijos*/
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    height: 30px;
+    /* background-color: blueviolet; */
+
+    display: grid;
+    place-items: center;
+}
+
+.tarjeta {
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    /* border: 1px solid gray; */
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+h2,
+p {
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+}
+
+
+.chips {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 15px;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+
+}
+
+.but {
+    background-color: #c3e7ee;
+    color: blue;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    font-size: 12px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: 1px solid #c3e7ee;
+    display: grid;
+    margin: auto;
+    font-weight: bold;
+
+}
+
+.imagen1 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
