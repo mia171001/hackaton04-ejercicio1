@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.cuadrado-rojo {
+    width: 480px;
+    height: 553px;
+    background-color: #cc3843;
+    position: relative;
+    top: 50px;
+    left: 20%;
+
+}
+
+.cuadrado-azul {
+    width: 654px;
+    height: 479px;
+    background-color: #0c1f2c;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo {
+    height: 479px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.2;
+}
+
+.casco {
+    position: absolute;
+    left: 17%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+}
+
+.conten1 {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    left: 37%;
+
+}
+
+.titulo {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.precio {
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.tamaño {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tamaño .tallaS {
+    font-size: 6px;
+}
+
+.tallaS {
+
+    position: relative;
+    display: inline-flex;
+    /* Usar flexbox para centrar vertical y horizontalmente */
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+    width: 30px;
+    /* Tamaño del círculo */
+    height: 30px;
+    /* Tamaño del círculo */
+    border: 2px solid #cc3843;
+    /* Grosor y color del borde */
+    border-radius: 50%;
+    /* Hacer un círculo */
+    margin-right: 10px;
+    /* Espacio entre las tallas */
+
+
+}
+
+.tallao {
+    margin-right: 10px;
+}
+
+
+.but {
+    color: white;
+    background-color: #cc3843;
+    height: 48px;
+    border-radius: 25px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
