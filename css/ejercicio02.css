@@ -14,6 +14,7 @@ body {
     position: relative;
     top: 50px;
     left: 20%;
+    border-radius: 20px;
 
 }
 
@@ -21,7 +22,7 @@ body {
     width: 654px;
     height: 479px;
     background-color: #0c1f2c;
-
+    border-radius: 20px;
     position: absolute;
     left: 50%;
     top: 50%;
